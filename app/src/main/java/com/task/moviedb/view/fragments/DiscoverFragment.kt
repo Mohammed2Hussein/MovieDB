@@ -1,4 +1,4 @@
-package com.task.moviedb.view
+package com.task.moviedb.view.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

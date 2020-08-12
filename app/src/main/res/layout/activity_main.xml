@@ -8,7 +8,7 @@
     tools:context=".view.MainActivity">
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/MainActivityTabLayout"
+        android:id="@+id/mainActivityTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabIndicatorColor="#0D47A1"
@@ -26,12 +26,9 @@
 
     </com.google.android.material.tabs.TabLayout>
 
-    <fragment
-        android:id="@+id/MainActivityNavHost"
-        android:name="androidx.navigation.fragment.NavHostFragment"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/mainActivityViewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"
-        app:navGraph="@navigation/nav_graph" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>
