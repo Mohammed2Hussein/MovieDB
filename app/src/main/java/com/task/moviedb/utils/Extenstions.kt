@@ -25,10 +25,10 @@ fun getImage(context: Context, imageURL: String, imageView: ImageView) {
         if (!imageURL.isEmpty()) {
             Glide.with(context).load(imageURL).thumbnail(0.3f).into(imageView)
         } else {
-            imageView.setImageResource(R.drawable.movie_icon)
+            imageView.setImageResource(R.drawable.movie_db_logo)
         }
     } catch (e: Exception) {
-        imageView.setImageResource(R.drawable.movie_icon)
+        imageView.setImageResource(R.drawable.movie_db_logo)
         e.printStackTrace()
     }
 }
