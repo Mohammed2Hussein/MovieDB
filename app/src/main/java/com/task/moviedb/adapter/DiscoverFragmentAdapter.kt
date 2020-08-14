@@ -12,7 +12,7 @@ import com.task.moviedb.utils.Constants
 import com.task.moviedb.utils.getCacheInstance
 import com.task.moviedb.utils.getImage
 
-class DiscoverFragmentAdapter(val activity: FragmentActivity?) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class DiscoverFragmentAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val view: View = LayoutInflater.from(parent.context)
             .inflate(R.layout.recyclerview_single_item_layout, parent, false)
@@ -37,7 +37,7 @@ class DiscoverFragmentAdapter(val activity: FragmentActivity?) : RecyclerView.Ad
         txtMovieName.setText(getCacheInstance().movieDiscoverResponse?.results!![position]?.title)
         txtMovieReleaseDate.setText(getCacheInstance().movieDiscoverResponse?.results!![position]?.releaseDate)
         txtOverview.setText(getCacheInstance().movieDiscoverResponse?.results!![position]?.overview)
-        getImage(activity?.applicationContext!!, Constants.IMAGE_URL + getCacheInstance().movieDiscoverResponse?.results!![position]?.posterPath, imgMoviePoster)
+        getImage(holder.itemView.context, Constants.IMAGE_URL + getCacheInstance().movieDiscoverResponse?.results!![position]?.posterPath, imgMoviePoster)
     }
 
     internal inner class ViewHolder(itemView: View) :

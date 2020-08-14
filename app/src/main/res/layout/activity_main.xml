@@ -13,9 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:fitsSystemWindows="true"
-        app:tabIndicatorColor="#0D47A1"
-        app:tabRippleColor="#1A237E">
+        android:background="@drawable/tablayout_bg"
+        android:fitsSystemWindows="false"
+        android:paddingTop="25dp"
+        app:tabIndicatorColor="@android:color/transparent"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabSelectedTextColor="@color/design_default_color_background">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"

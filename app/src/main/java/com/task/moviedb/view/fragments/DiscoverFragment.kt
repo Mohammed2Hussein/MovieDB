@@ -88,7 +88,7 @@ class DiscoverFragment : Fragment() {
     fun initRecyclerView(){
         layoutManager = LinearLayoutManager(activity)
         discoverFragmentRecyclerView.layoutManager = layoutManager
-        discoverFragmentAdapter = DiscoverFragmentAdapter(activity)
+        discoverFragmentAdapter = DiscoverFragmentAdapter()
         discoverFragmentRecyclerView.adapter = discoverFragmentAdapter
 
         recyclerViewAction()

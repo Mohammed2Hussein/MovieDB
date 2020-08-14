@@ -14,34 +14,46 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/etxtSearchMovie"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_weight="1"
-                android:drawableLeft="@android:drawable/ic_menu_search"
+                android:background="@drawable/edit_text_bg"
+                android:drawableLeft="@drawable/movie_search_icon"
                 android:drawablePadding="5dp"
                 android:ems="10"
+                android:hint="@string/search_movie_screen_edit_text_placeHolder"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/ibtnSearchFilter"
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
+                android:padding="10dp"
                 android:scaleType="fitCenter"
-                android:src="@android:drawable/ic_menu_sort_by_size" />
+                android:src="@drawable/movie_search_filter_icon" />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/searchFragmentRecyclerView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
         </androidx.recyclerview.widget.RecyclerView>
+
+        <ProgressBar
+            android:id="@+id/searchFragmentProgressBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
 
     </LinearLayout>
 

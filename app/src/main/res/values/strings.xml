@@ -4,4 +4,15 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tab_discover">Discover</string>
     <string name="tab_search">Search</string>
+    <string name="search_movie_screen_edit_text_placeHolder">Search by movie name</string>
+    <string name="search_movie_dialog_search_btn">Search</string>
+    <string name="search_movie_dialog_title">Filter</string>
+    <string name="search_movie_dialog_movie_lang">Movie Language</string>
+    <string name="search_movie_dialog_movie_include_adult">Include Adult</string>
+    <string name="search_movie_dialog_movie_year">Movie Year</string>
+    <string name="search_movie_dialog_year_placeholder">Year</string>
+    <array name="language">
+        <item>English</item>
+        <item>Arabic</item>
+    </array>
 </resources>

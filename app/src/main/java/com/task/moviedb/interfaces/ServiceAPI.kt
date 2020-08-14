@@ -12,11 +12,9 @@ interface ServiceAPI {
 
     @GET("search/movie")
     fun searchMovies(@Query("api_key") api_key: String
+    , @Query("page") page: Int
     , @Query("lang") lang: String
     , @Query("query") query: String
-    , @Query("page") page: Int
-    , @Query("include_adult") include_adult: Int
-    , @Query("region") region: Int
-    , @Query("year") year: Int
-    , @Query("primary_release_year") primary_release_year: Int): Observable<MovieSearchResponse>
+    , @Query("include_adult") include_adult: Boolean
+    , @Query("year") year: Int): Observable<MovieSearchResponse>
 }
