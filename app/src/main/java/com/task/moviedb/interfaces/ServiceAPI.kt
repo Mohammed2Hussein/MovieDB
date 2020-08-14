@@ -8,7 +8,7 @@ import retrofit2.http.Query
 
 interface ServiceAPI {
     @GET("discover/movie")
-    fun discoverMovies(@Query("api_key") api_key: String): Observable<MovieDiscoverResponse>
+    fun discoverMovies(@Query("api_key") api_key: String, @Query("page") page: Int): Observable<MovieDiscoverResponse>
 
     @GET("search/movie")
     fun searchMovies(@Query("api_key") api_key: String

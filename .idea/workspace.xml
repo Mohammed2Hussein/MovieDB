@@ -7,22 +7,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfa2b240-e9de-425e-a793-13f6664ebe92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/adapter/ViewPagerFragmentAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/animation/ZoomOutPageTransformer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/adapter/DiscoverFragmentAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/adapter/SearchFragmentAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/modelview/DiscoverFragementViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/utils/EndlessRecyclerViewScrollListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/utils/EndlessScrollListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/container_gradient_colored_with_rounded_corners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recyclerview_single_item_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_moshi_moshi_1_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_moshi_2_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/ServiceAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/interfaces/ServiceAPI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/core/MovieApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/core/MovieApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/cache/Cache.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/cache/Cache.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/interfaces/ServiceAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/interfaces/ServiceAPI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/model/MovieDiscoverResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/model/MovieSearchResponse.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/utils/Constants.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/utils/Extenstions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/utils/Extenstions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/view/DiscoverFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/view/fragments/DiscoverFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/view/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/view/SearchFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/view/fragments/SearchFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/view/fragments/DiscoverFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/task/moviedb/view/fragments/DiscoverFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_discover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_discover.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +68,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="resourceFile" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -60,8 +84,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,6 +97,9 @@
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.task.moviedb.view.fragments" />
       <recent name="com.task.moviedb.interfaces" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -152,29 +180,68 @@
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="387" y="232" key="#PSD/0.23.1680.973@0.23.1680.973" timestamp="1597238117971" />
-    <state x="655" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1597240491602">
+    <state x="655" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1597305838975">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
+    <state x="655" y="165" key="#com.intellij.ide.util.MemberChooser/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597305838975" />
     <state x="655" y="165" key="#com.intellij.ide.util.MemberChooser/0.23.1680.973@0.23.1680.973" timestamp="1597240491602" />
     <state x="643" y="244" width="480" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1597238373038">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="643" y="244" width="480" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1680.973@0.23.1680.973" timestamp="1597238373038" />
-    <state width="1558" height="212" key="GridCell.Tab.0.bottom" timestamp="1597241969689">
+    <state x="428" y="271" key="AndroidCreateResourceFileDialog" timestamp="1597348259096">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1558" height="212" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1597241969689" />
-    <state width="1558" height="212" key="GridCell.Tab.0.center" timestamp="1597241969688">
+    <state x="428" y="271" key="AndroidCreateResourceFileDialog/0.23.1680.973@0.23.1680.973" timestamp="1597348259096" />
+    <state width="1638" height="291" key="GridCell.Tab.0.bottom" timestamp="1597352463483">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1558" height="212" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1597241969688" />
-    <state width="1558" height="212" key="GridCell.Tab.0.left" timestamp="1597241969688">
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597308243712" />
+    <state width="1638" height="291" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1597352463483" />
+    <state width="1638" height="291" key="GridCell.Tab.0.center" timestamp="1597352463480">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1558" height="212" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1597241969688" />
-    <state width="1558" height="212" key="GridCell.Tab.0.right" timestamp="1597241969689">
+    <state width="1638" height="324" key="GridCell.Tab.0.center/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597308243711" />
+    <state width="1638" height="291" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1597352463480" />
+    <state width="1638" height="291" key="GridCell.Tab.0.left" timestamp="1597352463478">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1558" height="212" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1597241969689" />
+    <state width="1638" height="324" key="GridCell.Tab.0.left/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597308243711" />
+    <state width="1638" height="291" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1597352463478" />
+    <state width="1638" height="291" key="GridCell.Tab.0.right" timestamp="1597352463481">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.0.right/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597308243711" />
+    <state width="1638" height="291" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1597352463481" />
+    <state width="1638" height="324" key="GridCell.Tab.1.bottom" timestamp="1597308243713">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.1.bottom/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597308243713" />
+    <state width="1638" height="324" key="GridCell.Tab.1.center" timestamp="1597308243713">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.1.center/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597308243713" />
+    <state width="1638" height="324" key="GridCell.Tab.1.left" timestamp="1597308243712">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.1.left/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597308243712" />
+    <state width="1638" height="324" key="GridCell.Tab.1.right" timestamp="1597308243713">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1638" height="324" key="GridCell.Tab.1.right/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597308243713" />
+    <state x="100" y="123" width="1480" height="773" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597392874993">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="100" y="123" width="1480" height="773" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597305903810" />
+    <state x="100" y="123" width="1480" height="773" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1680.973@0.23.1680.973" timestamp="1597392874993" />
+    <state x="602" y="146" key="refactoring.ChangeSignatureDialog" timestamp="1597353847301">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="602" y="146" key="refactoring.ChangeSignatureDialog/0.23.1680.973@0.23.1680.973" timestamp="1597353847301" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1597350966505">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.973/-1600.23.1600.877@0.23.1680.973" timestamp="1597305553848" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1597350966505" />
   </component>
 </project>

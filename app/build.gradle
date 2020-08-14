@@ -53,7 +53,7 @@ dependencies {
             {
                 exclude module: 'okhttp'
             }
-    implementation "com.squareup.retrofit2:converter-moshi:2.3.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
     // OkHTTP
     implementation 'com.itkacher.okhttpprofiler:okhttpprofiler:1.0.7'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'

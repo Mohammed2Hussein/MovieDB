@@ -1,9 +1,8 @@
 package com.task.moviedb.utils
 
-import android.app.Activity
+import android.content.Context
 import android.widget.ImageView
 import com.bumptech.glide.Glide
-import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.itkacher.okhttpprofiler.OkHttpProfilerInterceptor
 import com.task.moviedb.BuildConfig
 import com.task.moviedb.R
@@ -12,7 +11,7 @@ import com.task.moviedb.core.MovieApp
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
-import retrofit2.converter.moshi.MoshiConverterFactory
+import retrofit2.converter.gson.GsonConverterFactory
 
 fun getCacheInstance(): Cache {
     if(MovieApp.cache == null){
@@ -21,10 +20,10 @@ fun getCacheInstance(): Cache {
     return MovieApp.cache!!
 }
 
-fun getImage(context: Activity,imageURL: String, imageView: ImageView) {
+fun getImage(context: Context, imageURL: String, imageView: ImageView) {
     try {
         if (!imageURL.isEmpty()) {
-            Glide.with(context).load(imageURL).into(imageView);
+            Glide.with(context).load(imageURL).thumbnail(0.3f).into(imageView)
         } else {
             imageView.setImageResource(R.drawable.movie_icon)
         }
@@ -46,7 +45,7 @@ fun getRetrofitInstance(): Retrofit {
         MovieApp.retrofit = Retrofit.Builder()
             .client(client)
             ?.baseUrl(Constants.Base_URL)
-            ?.addConverterFactory(MoshiConverterFactory.create())
+            ?.addConverterFactory(GsonConverterFactory.create())
             ?.addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             ?.build()
     }
